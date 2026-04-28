@@ -604,7 +604,6 @@ PRODUCT_PACKAGES += \
     com.qti.chi.override \
     fingerprint.fpc.default \
     gyro_fusion_interface \
-    sound_trigger.primary.taro \
     vendor.xiaomi.hardware.micharge@1.0-impl \
     vendor.xiaomi.hardware.quickcamera@1.0-impl \
     vendor.xiaomi.hw.touchfeature@1.0-impl \
@@ -624,7 +623,6 @@ PRODUCT_PACKAGES += \
     libTrustedUITZ \
     libTrustedUIVM \
     libXMFaceFocus \
-    lib_bt_aptx \
     lib_bt_ble \
     lib_bt_bundle \
     lib_bt_lhdc \
@@ -661,7 +659,6 @@ PRODUCT_PACKAGES += \
     libaudiocloudctrl \
     libaudioroute_ext \
     libbase64 \
-    libbatterylistener \
     libbitmlengine \
     libbitmlenginev2 \
     libbt-hidlclient \
@@ -717,7 +714,6 @@ PRODUCT_PACKAGES += \
     libkaraokepal \
     liblistensoundmodel2vendor \
     libloadalgo_stub \
-    liblx-ar_util \
     liblx-osal \
     libmctfengine_stub \
     libmfGhostDetection \
