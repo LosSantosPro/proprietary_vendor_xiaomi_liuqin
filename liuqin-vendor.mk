@@ -595,7 +595,6 @@ PRODUCT_PACKAGES += \
     com.qualcomm.mcx.linearmapper \
     com.qualcomm.mcx.policy.mfl \
     com.qualcomm.mcx.policy.xr \
-    com.qualcomm.qti.dpm.api@1.0 \
     com.qualcomm.qti.mcx.usecase.extension \
     audio.bluetooth_qti.default \
     audio.primary.taro_liuqin \
@@ -623,15 +622,8 @@ PRODUCT_PACKAGES += \
     libTrustedUITZ \
     libTrustedUIVM \
     libXMFaceFocus \
-    lib_bt_ble \
-    lib_bt_bundle \
     lib_bt_lhdc \
     lib_misound_asc \
-    libagm \
-    libagm_compress_plugin \
-    libagm_mixer_plugin \
-    libagm_pcm_plugin \
-    libagmclient \
     libagmmixer \
     libaidenoiser \
     libalCFR \
@@ -641,10 +633,6 @@ PRODUCT_PACKAGES += \
     libanc_hdr \
     libanc_supervq \
     libancbase \
-    libar-acdb \
-    libar-gpr \
-    libar-gsl \
-    libar-pal \
     libarcsoft_beautyshot \
     libarcsoft_dualcam_refocus_image \
     libarcsoft_dualcam_refocus_video \
@@ -655,7 +643,6 @@ PRODUCT_PACKAGES += \
     libarcsoft_qnnhtp \
     libarcsoft_super_night_detection \
     libarcsoft_super_night_raw \
-    libats \
     libaudiocloudctrl \
     libaudioroute_ext \
     libbase64 \
@@ -701,7 +688,6 @@ PRODUCT_PACKAGES += \
     libeai_float \
     libelliptic_engine \
     libelliptic_serializer \
-    libfmpal \
     libgps.utils \
     libhdcp1prov \
     libhdcp2p2prov \
@@ -714,7 +700,6 @@ PRODUCT_PACKAGES += \
     libkaraokepal \
     liblistensoundmodel2vendor \
     libloadalgo_stub \
-    liblx-osal \
     libmctfengine_stub \
     libmfGhostDetection \
     libmi_supernight_raw_checker \
@@ -758,7 +743,6 @@ PRODUCT_PACKAGES += \
     libopencv3a \
     libopestriping \
     libos \
-    libpalclient \
     libqcodec2_base_liuqin \
     libqcodec2_basecodec_liuqin \
     libqcodec2_core_liuqin \
@@ -788,7 +772,6 @@ PRODUCT_PACKAGES += \
     libsfeShiftExtrapolation \
     libsi \
     libsmemlog \
-    libsndcardparser \
     libsnpe_dsp_domains_v2 \
     libsnpe_dsp_domains_v3 \
     libsoc_helper_jni \
@@ -830,17 +813,12 @@ PRODUCT_PACKAGES += \
     libvisualizer \
     vendor.dolby.hardware.dms@2.0-impl \
     vendor.dolby.hardware.dms@2.0 \
-    vendor.qti.hardware.AGMIPC@1.0-impl \
     vendor.qti.hardware.ListenSoundModel@1.0-impl \
     vendor.qti.hardware.ListenSoundModel@1.0_vendor \
     vendor.qti.hardware.camera.aon@1.0-service-impl \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
-    vendor.qti.hardware.dpmservice@1.0 \
-    vendor.qti.hardware.dpmservice@1.1 \
     vendor.qti.hardware.limits@1.0_vendor \
     vendor.qti.hardware.limits@1.1_vendor \
-    vendor.qti.hardware.pal@1.0-impl \
-    vendor.qti.hardware.qccvndhal@1.0 \
     vendor.qti.hardware.sigma_miracast@1.0 \
     vendor.qti.hardware.trustedui@1.0 \
     vendor.qti.hardware.trustedui@1.1 \
@@ -962,7 +940,6 @@ PRODUCT_PACKAGES += \
     dolbycodec2 \
     vendor.dolby.hardware.dms@2.0-service \
     vendor.qti.camera.provider@2.7-service_64 \
-    vendor.qti.hardware.AGMIPC@1.0-service \
     vendor.qti.hardware.limits@1.1-service \
     vendor.qti.hardware.trustedui@1.0-service-qti \
     vendor.qti.hardware.tui_comm@1.0-service-qti \
