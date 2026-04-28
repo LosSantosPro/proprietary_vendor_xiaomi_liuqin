@@ -407,6 +407,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/liuqin/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin
 
 PRODUCT_PACKAGES += \
+    c2.dolby.store \
     c2.dolby.avc.dec \
     c2.dolby.avc.sec.dec \
     c2.dolby.client \
@@ -414,7 +415,6 @@ PRODUCT_PACKAGES += \
     c2.dolby.hevc.dec \
     c2.dolby.hevc.enc \
     c2.dolby.hevc.sec.dec \
-    c2.dolby.store \
     com.qti.actuator.liuqin_qtech_s5kjn1_gt9764_wide_i_actuator \
     com.qti.eeprom.liuqin_aac_imx596_gt24p64e_front_i_eeprom \
     com.qti.eeprom.liuqin_ofilm_sc202cs_depth_i_eeprom \
@@ -597,7 +597,6 @@ PRODUCT_PACKAGES += \
     com.qualcomm.mcx.policy.xr \
     com.qualcomm.qti.mcx.usecase.extension \
     audio.bluetooth_qti.default \
-    audio.primary.taro_liuqin \
     camera.qcom \
     camera.xiaomi \
     com.qti.chi.override \
@@ -688,7 +687,6 @@ PRODUCT_PACKAGES += \
     libeai_float \
     libelliptic_engine \
     libelliptic_serializer \
-    libgps.utils \
     libhdcp1prov \
     libhdcp2p2prov \
     libhdcpsrm \
@@ -743,16 +741,6 @@ PRODUCT_PACKAGES += \
     libopencv3a \
     libopestriping \
     libos \
-    libqcodec2_base_liuqin \
-    libqcodec2_basecodec_liuqin \
-    libqcodec2_core_liuqin \
-    libqcodec2_filterbase_liuqin \
-    libqcodec2_hooks_liuqin \
-    libqcodec2_mockfilter_liuqin \
-    libqcodec2_mockqc2filter_liuqin \
-    libqcodec2_platform_liuqin \
-    libqcodec2_utils_liuqin \
-    libqcodec2_v4l2codec_liuqin \
     libqesdk \
     libqesdk_manager \
     libqll \
@@ -767,7 +755,6 @@ PRODUCT_PACKAGES += \
     libremosaic_wrapper \
     libremosaiclib \
     libresampler \
-    libsdmextension_liuqin \
     libsecureui_svcsock \
     libsfeShiftExtrapolation \
     libsi \
@@ -813,12 +800,11 @@ PRODUCT_PACKAGES += \
     libvisualizer \
     vendor.dolby.hardware.dms@2.0-impl \
     vendor.dolby.hardware.dms@2.0 \
-    vendor.qti.hardware.ListenSoundModel@1.0-impl \
-    vendor.qti.hardware.ListenSoundModel@1.0_vendor \
+    vendor.qti.hardware.ListenSoundModel@1.0 \
     vendor.qti.hardware.camera.aon@1.0-service-impl \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
-    vendor.qti.hardware.limits@1.0_vendor \
-    vendor.qti.hardware.limits@1.1_vendor \
+    vendor.qti.hardware.limits@1.0 \
+    vendor.qti.hardware.limits@1.1 \
     vendor.qti.hardware.sigma_miracast@1.0 \
     vendor.qti.hardware.trustedui@1.0 \
     vendor.qti.hardware.trustedui@1.1 \
@@ -833,11 +819,7 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.campostproc@1.0-service-impl \
     vendor.xiaomi.hardware.campostproc@1.0 \
     vendor.xiaomi.hardware.micharge@1.0 \
-    vendor.xiaomi.hardware.mlipay@1.0_vendor \
-    vendor.xiaomi.hardware.mlipay@1.1_vendor \
-    vendor.xiaomi.hardware.mtdservice@1.0_vendor \
     vendor.xiaomi.hardware.quickcamera@1.0 \
-    vendor.xiaomi.hw.touchfeature@1.0_vendor \
     vendor.xiaomi.sensor.citsensorservice@1.1 \
     vendor.xiaomi.sensor.citsensorservice@2.0 \
     vendor_lib_rfsa_adsp_bm2n00_bin \
@@ -922,7 +904,6 @@ PRODUCT_PACKAGES += \
     vendor_lib_rfsa_adsp_weak_refs_so \
     android.hardware.security.keymint-service-qti-rkp.xml \
     manifest_lahaina_identity.xml \
-    manifest_non_qmaa.xml \
     manifest_non_qmaa_extn.xml \
     vendor.qti.hardware.limits-service.xml \
     vendor.xiaomi.hardware.micharge@1.0.xml \
@@ -933,7 +914,6 @@ PRODUCT_PACKAGES += \
     agmcompressplay \
     agmplay \
     batterysecret \
-    cnss-daemon_liuqin \
     android.hardware.identity-service-qti \
     android.hardware.keymaster@4.0-service-qti \
     android.hardware.keymaster@4.0-strongbox-service-qti \
